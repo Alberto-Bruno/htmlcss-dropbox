@@ -125,9 +125,8 @@ h2 {
     flex-basis: calc(100% / 3);
 }
 
-.row.tables-4 > .table {
-    flex-basis: 50%;
-
+.row.tables-3top > .table {
+    flex-basis: calc(100% / 3);
 }
 
 .table {
