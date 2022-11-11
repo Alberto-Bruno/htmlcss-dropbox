@@ -125,13 +125,26 @@ h2 {
     flex-basis: calc(100% / 3);
 }
 
-.row.tables-4 .table {
-    flex-basis: 35%;
+.row.tables-4 > .table {
+    flex-basis: 50%;
+
 }
 
 .table {
     border: 1px solid gray;
     min-height: 500px;
+}
+
+.plan-card {
+    border: 1px solid gray;
+    height: 400px;
+    padding: 10px
+}
+
+.plan-buss .bg-btn {
+    margin: 20px auto;
+   position: relative;
+   top: 20px;
 }
 
 /*Footer*/
