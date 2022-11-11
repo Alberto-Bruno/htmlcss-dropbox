@@ -7,41 +7,52 @@
         <title>Dropbox</title>
 
         <link rel="stylesheet" href="css/style.css">
+
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'
+         integrity='sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=='
+        crossorigin='anonymous'/>
+
+        <link rel="icon" href="img/favicon.ico" type="image/ico">
     </head>
     <body class="debug">
-        <header>
-            <nav class="menubar border">
-                <div class="menubar-logo border">
-                   <img class="logo" src="img/favicon.ico" alt="logo">
-                   <h2 class="logo-text">Dropbox</h2>
-                </div>
-                <div class="menubar-menu border">
-                   <a href="#">Perchè Dropbox</a>
-                   <a href="#">Funzioni</a>
-                   <a href="#">Piani</a>
-                   <a href="#">Servizi</a>
-                </div>
-                <div class="menubar-action border">
-                   <a href="#">Supporto</a>
-                   <a href="#">Contatta l'ufficio vendite</a>
-                   <a href="#">Accedi</a>
-                   <button href="#">Inizia</button>
-                </div>
+        <header id="menubar-header">
+            <nav class="menubar-left">
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/logo-small.png" alt="Logo"></a>
+                    </li>
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                    <li><a href="#">Piani e prezzi</a></li>
+                </ul>
             </nav>
-
+            <nav class="menubar-right">
+                <ul>
+                    <li><a href="#">Supporto</a></li>
+                    <li><a href="#">Contatta l'ufficio Vendite</a></li>
+                    <li><a href="#">Accedi</a></li>
+                    <li><a href="#" class="btn">Inizia</a></li>
+                </ul>
+            </nav>
+        </header>    
+        
+        <main>
             <div class="bg-blue">
                 <div class="container">
                     <h1>Tutto ciò che ti serve per il lavoro, in un unico posto.</h1>
                     <p class="bg-text">Finalmente tutti i tuoi strumenti, contenuti e collaboratori 
-                        sono accessibili dallo stesso posto.
+                        sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione
+                        sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                     </p>
+                    <a href="#" class="bg-btn">Inizia la tua prova gratuita</a>
+                    <p class="bg-p">Annulla in qualsiasi momento</p>
+                    <i class="fa fa-arrow-down fa 3x"></i>
                     <div class="bg-image">
-                        <img src="img/business-feature-coordinate-it.png" alt="">
+                        <img src="img/jumbo.png" alt="jumbo">
                     </div>
                 </div>
             </div>
+        </main>
 
-            <main></main>
-        </header>    
     </body>
 </html>
