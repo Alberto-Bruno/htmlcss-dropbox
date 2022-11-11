@@ -29,9 +29,6 @@ a {
     cursor: pointer;
 }
 
-.debug .border {
-    border: 2px dashed black;
-}
 
 /*Menubar*/
 
@@ -65,7 +62,7 @@ a {
     background-color: blue;
 }
 
-/*Container*/
+/*Bg*/
 
 .bg-blue {
     padding: 50px;
@@ -104,3 +101,38 @@ a {
     font-size: 20px;
     padding-top: 15px;
 }
+
+
+/*Bg table*/
+
+section {
+   padding: 100px 0;
+}
+
+h2 {
+    padding-top: 60px;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    gap: 40px;
+}
+
+.row.tables-3 > .table {
+    flex-basis: calc(100% / 3);
+}
+
+.row.tables-4 .table {
+    flex-basis: 35%;
+}
+
+.table {
+    border: 1px solid gray;
+    min-height: 500px;
+}
+
+/*Footer*/
+
