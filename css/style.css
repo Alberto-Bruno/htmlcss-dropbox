@@ -90,6 +90,11 @@ a {
     left: 25%;
 }
 
+.bg-partner {
+    min-height: 400px;
+    padding: 15px;
+}
+
 .bg-btn {
     font-size: 20px;
     padding: 10px 15px;
@@ -102,6 +107,11 @@ a {
     padding-top: 15px;
 }
 
+.col {
+    flex-basis: calc(100% / 3);
+    padding: 20px;
+    gap: 5px;
+}
 
 /*Bg table*/
 
@@ -121,33 +131,86 @@ h2 {
     gap: 40px;
 }
 
-.row.tables-3 > .table {
-    flex-basis: calc(100% / 3);
-}
-
-.row.tables-3top > .table {
-    flex-basis: calc(100% / 3);
-}
-
 .table {
     border: 1px solid gray;
     min-height: 500px;
 }
 
+
+.table-4top {
+    border: 1px solid gray;
+    min-height: 300px;
+}
+.row.tables-3 > .table {
+    flex-basis: calc(100% / 3);
+}
+
+
+.row.tables-3top > .table {
+    flex-basis: calc(100% / 3);
+}
+
+.row.table-4top > .table {
+    flex-basis: 100%;
+}
+
 .plan-card {
     border: 1px solid gray;
     height: 400px;
-    padding: 10px
+    padding: 10px;
+    margin-bottom: 5px;
 }
 
 .plan-buss .bg-btn {
-    margin: 20px auto;
+   margin: 20px auto;
    position: relative;
    top: 20px;
 }
 
 .icon {
     text-align: center;
+}
+
+ul.list-user > li {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+ul.list-user > li > :first-child {
+    margin-right: 5px;
+}
+
+/* Bg partener */
+
+#image {
+    width: 600px;
+}
+
+.text-partner {
+    margin-top: 50px;
+}
+
+.btn-partner {
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: darkgrey;
+}
+
+/* Business */
+
+.row-business {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+
+.image-business {
+    width: 293px;
+}
+
+.drop-bus {
+    font-size: 30px;
 }
 
 /*Footer*/
