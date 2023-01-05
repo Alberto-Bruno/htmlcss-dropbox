@@ -213,5 +213,103 @@ ul.list-user > li > :first-child {
     font-size: 30px;
 }
 
+/* Sponsor */
+
+#clients {
+    margin: 100px 0;
+}
+
+.squares-container {
+    display: flex;
+}
+
+.square {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small-square {
+    width: 50%;
+    height: 50%;
+
+    border: 1px dashed black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 10px solid transparent;
+}
+
+.square-center {
+    background-color: rgb(230, 228, 228);
+}
+.square-center img {
+    width: 50%;
+    height: 50%;
+
+    padding: 20px;
+}
+
+.small-square:hover {
+    border: 10px solid rgb(248, 246, 246);
+}
+.small-square img {
+    width: 50%;
+    filter: invert(1);
+}
+
+.bg-prova {
+    background-color: #b4d0e7;
+    height: 350px;
+
+    font-size: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-prova {
+    flex-basis: 100%;
+    padding: 20px;
+    gap: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-square {
+    padding: 15px;
+}
+#designit-color {
+    background-color: #a2d39b;
+}
+#florida-color {
+    background-color: #0093ce;
+}
+#arizona-color {
+    background-color: #61082b;
+}
+#topps-color {
+   background-color: #ff1c1c; 
+}
+#planet-color {
+    background-color: #0d2481;
+}
+#hearst-color {
+    background-color: #b4d0e7;
+}
+#outdoor-color {
+    background-color: #ffd830;
+}
+
+
+
+
 /*Footer*/
 
